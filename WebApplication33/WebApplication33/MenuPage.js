@@ -1,27 +1,39 @@
-﻿//happy hour logic: Mellan en viss tid är det 10% rabatt på ALLT (new Date getTime)
-//sänka priser när det är hh
-
-var now = new Date().getHours();
-var happyHour = 16;
-
+﻿//happy hour logic:
+//Method calls:
+//Adjust price function: (add .toFixed(2) for 2 decimals)
 function happyTime() {
-    var prices = document.getElementsByClassName("price").value;
-    if (now === happyHour) {
+
+    var now = new Date().getHours();
+    var happyHour = 12;
+    var isHappyHour = (now === happyHour);
+    
+    var prices = document.getElementsByClassName("price");
+    if (isHappyHour) {
         for (var i = 0; i < prices.length; i++) {
-            prices[i].value = prices[i].value * 0.9;
+            prices[i].innerHTML = (Number(prices[i].innerHTML) * Number(0.9)).toFixed(2);
         }
     }
 }
 
-//Method calls:
-
-document.getElementsByClassName("price").innerHTML = happyTime();
-
-//Adjust price function: (add .toFixed(2) for 2 decimals)
-
-
+document.getElementsByClassName("price").value = happyTime();
 
 /*Add pictures function to span:*/
+InsertPicture();
+
+function InsertPicture() {
+    
+    var images = document.getElementsByTagName('span');
+
+    for (var i = 0; i < images.length; i++) {
+
+        var image = document.createElement('img');
+        image.setAttribute('src', '../Images/Hamburger.png');
+        images[i].appendChild(image);
+    }
+}
+
+
+
 
 /*Add todays offer function. 
 Make price background red. 
