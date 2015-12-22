@@ -1,9 +1,25 @@
 ﻿//happy hour logic: Mellan en viss tid är det 10% rabatt på ALLT (new Date getTime)
+//sänka priser när det är hh
+
+var now = new Date().getHours();
+var happyHour = 16;
+
+function happyTime() {
+    var prices = document.getElementsByClassName("price").value;
+    if (now === happyHour) {
+        for (var i = 0; i < prices.length; i++) {
+            prices[i].value = prices[i].value * 0.9;
+        }
+    }
+}
 
 //Method calls:
 
+document.getElementsByClassName("price").innerHTML = happyTime();
 
 //Adjust price function: (add .toFixed(2) for 2 decimals)
+
+
 
 /*Add pictures function to span:*/
 
