@@ -32,12 +32,32 @@ function InsertPicture() {
     }
 }
 
-
-
-
 /*Add todays offer function. 
 Make price background red. 
 Reduce price by another 20%:*/
+
+TodaysOffer();
+function TodaysOffer() {
+    
+    var today = new Date().getDay();
+    
+    var weekday = new Array(7);
+    weekday[0] = "sunday";
+    weekday[1] = "monday";
+    weekday[2] = "tuesday";
+    weekday[3] = "wednesday";
+    weekday[4] = "thursday";
+    weekday[5] = "friday";
+    weekday[6] = "saturday";
+
+    for (var i = 0; i < weekday.length; i++) {
+        if (today === i) {
+            document.getElementById(weekday[i]).className += ' todaysDeal';
+        }
+    }
+}
+
+
 
 /*Stretch exercises: (increasing tuffness for each number!)
 

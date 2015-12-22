@@ -27,10 +27,14 @@ article, .price{
     margin: 0 auto;
 }
 .price {
-     -ms-border-radius: 20px;
+    -ms-border-radius: 20px;
     border-radius: 20px;
     width: 60%; 
     text-align: center;
+}
+
+.todaysDeal {
+    background-color: red;
 }
 
 fieldset {
