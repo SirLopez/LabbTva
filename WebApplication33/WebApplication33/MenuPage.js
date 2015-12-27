@@ -25,10 +25,13 @@ function InsertPicture() {
     var images = document.getElementsByTagName('span');
 
     for (var i = 0; i < images.length; i++) {
+        //Old code, didn´t removed the old text from the span-element while added pictures
+        //var image = document.createElement('img');
+        //image.setAttribute('src', '../Images/Hamburger.png');
+        //images[i].appendChild(image);
 
-        var image = document.createElement('img');
-        image.setAttribute('src', '../Images/Hamburger.png');
-        images[i].appendChild(image);
+        //New code, works as expected
+        images[i].innerHTML = '<img src="../Images/Hamburger.png"/>';
     }
 }
 
@@ -51,15 +54,16 @@ function TodaysOffer() {
     }
 }
 
-
-
 /*Stretch exercises: (increasing tuffness for each number!)
 
- 1. Automate todays offer to be dependent of the day of the week
+ 1. Automate todays offer to be dependent of the day of the week - DONE!
+
  2. Create an HTML page with an empty body and then fill it with help from JS.
     -use array with names and price of the burgers seperated by a simple "space"
     -use a loop to add all the html with different burgers
     -Add more pictures on a creative way...
+
+
  3. Add arrays for all in point 3 and show the products.
     Add a simulair menu under the burgers with a new <h2> for:
     -subs
