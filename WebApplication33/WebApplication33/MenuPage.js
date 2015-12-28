@@ -43,13 +43,15 @@ TodaysOffer();
 function TodaysOffer() {
     
     var today = new Date().getDay();
-
     var weekday = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
 
+    var prices = document.getElementsByClassName("price");
+    
     for (var i = 0; i < weekday.length; i++) {
         if (today === i) {
+            prices[weekday[i]].innerHTML = (Number(prices[weekday[i]].innerHTML) * Number(0.8)).toFixed(2);
             document.getElementById(weekday[i]).className += ' todaysDeal';
-            //document.getElementById(weekday[i]).classList.add('todaysDeal');
+            //document.getElementById(weekday[i]).classList.add('todaysDeal'); <-- Thiss works aswell
         }
     }
 }
