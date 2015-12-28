@@ -3,49 +3,49 @@
     {
       "name": "L-A Burger",
       "size": "mega",
-      "dayOfTheWeek": "sunday",
+      "weekday": "sunday",
       "price": 19.90,
       "image": "Images/Hamburger.png"
     },
     {
       "name": "Daniél Burger",
       "size": "jumbo",
-      "dayOfTheWeek": "monday",
+      "weekday": "monday",
       "price": 19.90,
       "image": "Images/Hamburger.png"
     },
     {
       "name": "Le Roje Burger",
       "size": "big",
-      "dayOfTheWeek": "tuesday",
+      "weekday": "tuesday",
       "price": 19.90,
       "image": "Images/Hamburger.png"
     },
     {
       "name": "EC Burger",
       "size": "small",
-      "dayOfTheWeek": "wednesday",
+      "weekday": "wednesday",
       "price": 19.90,
       "image": "Images/Hamburger.png"
     },
     {
       "name": "JS Burger",
       "size": "normal",
-      "dayOfTheWeek": "thursday",
+      "weekday": "thursday",
       "price": 19.90,
       "image": "Images/Hamburger.png"
     },
     {
       "name": "Crazy Burger",
       "size": "mega",
-      "dayOfTheWeek": "friday",
+      "weekday": "friday",
       "price": 19.90,
       "image": "Images/Hamburger.png"
     },
     {
       "name": "Holiday Burger",
       "size": "jumbo",
-      "dayOfTheWeek": "saturday",
+      "weekday": "saturday",
       "price": 19.90,
       "image": "Images/Hamburger.png"
     }
