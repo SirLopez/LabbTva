@@ -51,7 +51,7 @@ function TodaysOffer() {
         if (today === i) {
             prices[weekday[i]].innerHTML = (Number(prices[weekday[i]].innerHTML) * Number(0.8)).toFixed(2);
             document.getElementById(weekday[i]).className += ' todaysDeal';
-            //document.getElementById(weekday[i]).classList.add('todaysDeal'); <-- Thiss works aswell
+            //document.getElementById(weekday[i]).classList.add('todaysDeal'); <-- This works aswell
         }
     }
 }
