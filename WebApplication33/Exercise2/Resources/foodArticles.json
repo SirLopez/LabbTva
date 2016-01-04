@@ -49,5 +49,158 @@
       "price": 19.90,
       "image": "Images/Hamburger.png"
     }
+  ],
+  "subs": [
+    {
+      "name": "BimBim sub",
+      "size": "medium",
+      "weekday": "monday",
+      "price": 7.50,
+      "image": "Images/Subs.PNG"
+    },
+    {
+      "name": "Bella´s sub",
+      "size": "medium",
+      "weekday": "tuesday",
+      "price": 7.50,
+      "image": "Images/Subs.PNG"
+    },
+    {
+      "name": "King´s sub",
+      "size": "mega",
+      "weekday": "wednesday",
+      "price": 9.50,
+      "image": "Images/Subs.PNG"
+    },
+    {
+      "name": "Veggie sub",
+      "size": "small",
+      "weekday": "thursday",
+      "price": 6.50,
+      "image": "Images/Subs.PNG"
+    },
+    {
+      "name": "Volcano sub",
+      "size": "mega",
+      "weekday": "friday",
+      "price": 9.50,
+      "image": "Images/Subs.PNG"
+    },
+    {
+      "name": "Bacon sub",
+      "size": "medium",
+      "weekday": "saturday",
+      "price": 7.50,
+      "image": "Images/Subs.PNG"
+    },
+    {
+      "name": "Chicken sub",
+      "size": "medium",
+      "weekday": "sunday",
+      "price": 7.50,
+      "image": "Images/Subs.PNG"
+    }
+  ],
+  "pizza": [
+    {
+      "name": "Al Capone",
+      "size": "big",
+      "weekday": "monday",
+      "price": 11.50,
+      "image": "Images/Pizza.png"
+    },
+    {
+      "name": "Mexicana",
+      "size": "big",
+      "weekday": "tuesday",
+      "price": 11.50,
+      "image": "Images/Pizza.png"
+    },
+    {
+      "name": "Tropical",
+      "size": "big",
+      "weekday": "wednesday",
+      "price": 11.50,
+      "image": "Images/Pizza.png"
+    },
+    {
+      "name": "Da Vinci",
+      "size": "big",
+      "weekday": "thursday",
+      "price": 11.50,
+      "image": "Images/Pizza.png"
+    },
+    {
+      "name": "Kebabpizza",
+      "size": "big",
+      "weekday": "friday",
+      "price": 11.50,
+      "image": "Images/Pizza.png"
+    },
+    {
+      "name": "Tutti Frutti",
+      "size": "big",
+      "weekday": "saturday",
+      "price": 11.50,
+      "image": "Images/Pizza.png"
+    },
+    {
+      "name": "Hawaii",
+      "size": "big",
+      "weekday": "monday",
+      "price": 11.50,
+      "image": "Images/Pizza.png"
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Coca cola",
+      "size": "medium",
+      "weekday": "monday",
+      "price": 4.50,
+      "image": "Images/Drink.png"
+    },
+    {
+      "name": "Red Bull",
+      "size": "medium",
+      "weekday": "tuesday",
+      "price": 5.50,
+      "image": "Images/Drink.png"
+    },
+    {
+      "name": "Fanta",
+      "size": "medium",
+      "weekday": "wednesday",
+      "price": 4.50,
+      "image": "Images/Drink.png"
+    },
+    {
+      "name": "Sprite",
+      "size": "medium",
+      "weekday": "thursday",
+      "price": 4.50,
+      "image": "Images/Drink.png"
+    },
+    {
+      "name": "Mariestad Export",
+      "size": "medium",
+      "weekday": "friday",
+      "price": 6.50,
+      "image": "Images/Drink.png"
+    },
+    {
+      "name": "Pepsi",
+      "size": "medium",
+      "weekday": "saturday",
+      "price": 4.50,
+      "image": "Images/Drink.png"
+    },
+    {
+      "name": "Water",
+      "size": "medium",
+      "weekday": "sunday",
+      "price": 2.50,
+      "image": "Images/Drink.png"
+    }
   ]
 }
