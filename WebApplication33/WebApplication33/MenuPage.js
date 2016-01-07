@@ -4,10 +4,11 @@
 function happyTime() {
 
     var now = new Date().getHours();
-    var happyHour = 12;
+    var happyHour = 20;
     var isHappyHour = (now === happyHour);
     
     var prices = document.getElementsByClassName("price");
+
     if (isHappyHour) {
         for (var i = 0; i < prices.length; i++) {
             prices[i].innerHTML = (Number(prices[i].innerHTML) * Number(0.9)).toFixed(2);
