@@ -86,13 +86,23 @@ function Product(name, size, price, weekday, img) {
 
 
 var pizzas = [
+    new Product("Hawaii", "medium", 7.90, "sunday", "\Images/Pizza.png"),
+    new Product("Tropicana", "medium", 8.90, "monday", "\Images/Pizza.png"),
+    new Product("Godfather", "medium", 10.90, "tuesday", "\Images/Pizza.png"),
+    new Product("Kebabpizza", "medium", 8.90, "wednesday", "\Images/Pizza.png"),
+    new Product("Mexicana", "medium", 9.90, "thursday", "\Images/Pizza.png"),
+    new Product("Calzone", "medium", 8.90, "friday", "\Images/Pizza.png"),
+    new Product("Daniél Speciale", "medium", 10.90, "saturday", "\Images/Pizza.png")
 ];
+
+displayMenu(pizzas, "pizzaPlace");
 
 var subs = [
 ];
 
 var drinks = [
 ];
+
 /*
 1. create 7 hamburger objects using literal notation use attributes name, size, dayOfTheWeek and price(page. 104 in book) Please use the same html syntax of an article as in exercise1.
 */
