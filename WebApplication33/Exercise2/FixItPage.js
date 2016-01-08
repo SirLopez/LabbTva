@@ -9,6 +9,17 @@ document.getElementById('information').addEventListener('click', function () {
     alert(window.location);
 });
 
+//Added class in current stylesheet instead of creating a new stylesheet
+//for changing fontstyle on changed words
+
+playingWithMethods();
+function playingWithMethods() {
+    document.getElementById('makeMeAnArray').addEventListener('click', function() {
+        window.alert("This will lead to Formula 1´s official website");
+        window.open('http://www.formula1.com');
+        window.print();
+    }, false);
+}
 
 /*
 
@@ -18,10 +29,10 @@ with an alert that shows the result when the box is clicked!
 
 
 ### Window object at page 124: ###
-1. Link the script with FixIt.hmtl
+1. Link the script with FixIt.hmtl - DONE
 3. Play with the properties at page 124 in the book. 
-   Use properties creatively to display things at the html page
-4. Add a stylesheet that displays the changed words in fat font and in red.
+   Use properties creatively to display things at the html page - DONE
+4. Add a stylesheet that displays the changed words in fat font and in red. - DONE (my way)
 5. PLay with the Methods 
 ### DOM page 126:###
 6. Play with the DOM-properties
