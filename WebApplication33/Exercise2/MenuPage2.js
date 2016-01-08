@@ -48,6 +48,34 @@ var saturdayBurger = {
     img: "Images/Hamburger.png"
 };
 
+var burgers = [sundayBurger, mondayBurger, tuesdayBurger, wednesdayBurger, thursdayBurger, fridayBurger, saturdayBurger];
+
+displayMenu(burgers, "burgersPlace");
+
+function displayMenu(burgers, menu) {
+
+    var foodmenu = document.getElementById(menu);
+
+    for (var i = 0; i < burgers.length; i++) {
+        var legend = document.createElement("legend").textContent = burgers[i].weekday.charAt(0).toUpperCase() + " Burger";
+        var h3 = document.createElement("h3").textContent = burgers[i].name;
+        var img = document.createElement("img").setAttribute("src", burgers[i].img);
+        var span = document.createElement("span").appendChild(img);
+        var div = document.createElement("div").textContent = burgers[i].price.toFixed(2);
+        var divSize = document.createElement("div").textContent = burgers[i].size;
+
+        var fieldset = document.createElement("fieldset")
+             .appendChild(legend)
+             .appendChild(h3)
+             .appendChild(span)
+             .appendChild(div)
+             .appendChild(divSize);
+
+        var article = document.createElement("article").appendChild(fieldset);
+        foodmenu.appendChild(article);
+    }
+}
+
 
 
 /*
