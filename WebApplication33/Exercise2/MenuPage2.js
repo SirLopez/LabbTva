@@ -76,12 +76,25 @@ function displayMenu(products, menu) {
     }
 }
 
+function Product(name, size, price, weekday, img) {
+    this.name = name;
+    this.size = size;
+    this.price = price;
+    this.weekday = weekday;
+    this.img = img;
+}
 
 
+var pizzas = [
+];
+
+var subs = [
+];
+
+var drinks = [
+];
 /*
-1. create 7 hamburger objects using literal notation 
-   use attributes name, size, dayOfTheWeek and price(page. 104 in book)
-   Please use the same html syntax of an article as in exercise1.
+1. create 7 hamburger objects using literal notation use attributes name, size, dayOfTheWeek and price(page. 104 in book) Please use the same html syntax of an article as in exercise1.
 */
 
 
