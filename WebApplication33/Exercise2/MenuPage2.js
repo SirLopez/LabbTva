@@ -48,7 +48,7 @@ var saturdayBurger = {
     img: "\Images/Hamburger.png"
 };
 
-var burgers = [sundayBurger, mondayBurger, tuesdayBurger, wednesdayBurger, thursdayBurger, fridayBurger, saturdayBurger];
+var burgers = [mondayBurger, tuesdayBurger, wednesdayBurger, thursdayBurger, fridayBurger, saturdayBurger, sundayBurger];
 
 displayMenu(burgers, "burgersPlace");
 
@@ -86,19 +86,28 @@ function Product(name, size, price, weekday, img) {
 
 
 var pizzas = [
-    new Product("Hawaii", "medium", 7.90, "sunday", "\Images/Pizza.png"),
     new Product("Tropicana", "medium", 8.90, "monday", "\Images/Pizza.png"),
     new Product("Godfather", "medium", 10.90, "tuesday", "\Images/Pizza.png"),
     new Product("Kebabpizza", "medium", 8.90, "wednesday", "\Images/Pizza.png"),
     new Product("Mexicana", "medium", 9.90, "thursday", "\Images/Pizza.png"),
     new Product("Calzone", "medium", 8.90, "friday", "\Images/Pizza.png"),
-    new Product("Daniél Speciale", "medium", 10.90, "saturday", "\Images/Pizza.png")
+    new Product("Daniél Speciale", "medium", 10.90, "saturday", "\Images/Pizza.png"),
+    new Product("Hawaii", "medium", 7.90, "sunday", "\Images/Pizza.png")
 ];
 
 displayMenu(pizzas, "pizzaPlace");
 
 var subs = [
+    new Product("Bella´s sub", "medium", 7.50, "monday", "\Images/Subs.PNG"),
+    new Product("King´s sub", "mega", 9.50, "tuesday", "\Images/Subs.PNG"),
+    new Product("Veggie sub", "medium", 6.50, "wednesday", "\Images/Subs.PNG"),
+    new Product("Volcano sub", "mega", 7.50, "thursday", "\Images/Subs.PNG"),
+    new Product("Bacon sub", "medium", 7.50, "friday", "\Images/Subs.PNG"),
+    new Product("Chicken sub", "medium", 7.50, "saturday", "\Images/Subs.PNG"),
+    new Product("BimBim sub", "medium", 7.50, "sunday", "\Images/Subs.PNG")
 ];
+
+displayMenu(subs, "subsPlace");
 
 var drinks = [
 ];
