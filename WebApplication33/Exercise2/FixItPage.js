@@ -1,11 +1,24 @@
-﻿/*
+﻿//Playing with some properties from the book p 124
+document.getElementById('information').addEventListener('click', function () {
+    alert("Screensize and the available pixels for the site to display on.");
+    alert("actual width: " + screen.width);
+    alert("available width: " + screen.availWidth);
+    alert("actual height: " + screen.height);
+    alert("available width: " + screen.availHeight);
+    alert(window.document);
+    alert(window.location);
+});
+
+
+/*
 
 For each of the following aplicable exercise below you should present a box on the page 
 with an alert that shows the result when the box is clicked!
 
+
+
 ### Window object at page 124: ###
 1. Link the script with FixIt.hmtl
-2. Add som tags that doesn't change the visual part of the paragraph. [INTE GÖRA DENNA PUNKTEN!]
 3. Play with the properties at page 124 in the book. 
    Use properties creatively to display things at the html page
 4. Add a stylesheet that displays the changed words in fat font and in red.
