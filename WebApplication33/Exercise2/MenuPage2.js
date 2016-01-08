@@ -84,7 +84,6 @@ function Product(name, size, price, weekday, img) {
     this.img = img;
 }
 
-
 var pizzas = [
     new Product("Tropicana", "medium", 8.90, "monday", "\Images/Pizza.png"),
     new Product("Godfather", "medium", 10.90, "tuesday", "\Images/Pizza.png"),
@@ -110,17 +109,19 @@ var subs = [
 displayMenu(subs, "subsPlace");
 
 var drinks = [
+    new Product("Fanta", "medium", 4.50, "monday", "\Images/Drink.png"),
+    new Product("RedBull", "medium", 6.50, "tuesday", "\Images/Drink.png"),
+    new Product("Sprite", "medium", 4.50, "wednesday", "\Images/Drink.png"),
+    new Product("Mariestad Export", "medium", 8.50, "thursday", "\Images/Drink.png"),
+    new Product("Pepsi", "medium", 4.50, "friday", "\Images/Drink.png"),
+    new Product("Water", "medium", 2.50, "saturday", "\Images/Drink.png"),
+    new Product("Coca Cola", "medium", 4.50, "sunday", "\Images/Drink.png")
 ];
+
+displayMenu(drinks, "drinksPlace");
 
 /*
 1. create 7 hamburger objects using literal notation use attributes name, size, dayOfTheWeek and price(page. 104 in book) Please use the same html syntax of an article as in exercise1.
-*/
-
-
-
-
-
-/*
 2. create Product objects with constructor notation, 
    use the parameters name, size, price, dayOfTheWeek  (page. 108 in book)
 3. add 7 drinks to the page using Product.
@@ -128,5 +129,3 @@ var drinks = [
 5. add 7 subs to the page using Product.
 6. GO to file FixIt.html
 */
-//DRINKS
-//Subs
