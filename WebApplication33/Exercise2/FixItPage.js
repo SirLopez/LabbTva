@@ -21,6 +21,14 @@ function playingWithMethods() {
     }, false);
 }
 
+var play = (function playDOM() {
+    alert('Page title: ' + document.title
+        + '\n\nPage URL: ' + document.URL
+        + '\n\nPage domain: ' + document.domain
+        + '\n\nPage last modified: ' + document.lastModified);
+})();
+
+
 /*
 
 For each of the following aplicable exercise below you should present a box on the page 
@@ -33,7 +41,7 @@ with an alert that shows the result when the box is clicked!
 3. Play with the properties at page 124 in the book. 
    Use properties creatively to display things at the html page - DONE
 4. Add a stylesheet that displays the changed words in fat font and in red. - DONE (my way)
-5. PLay with the Methods 
+5. PLay with the Methods  - DONE
 ### DOM page 126:###
 6. Play with the DOM-properties
 
