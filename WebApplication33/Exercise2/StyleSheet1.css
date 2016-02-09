@@ -8,3 +8,23 @@
     font-weight: bold;
     color: red;
 }
+
+#arrayDisplay {
+    background-color: lightgrey;
+    height: 300px;
+    width: 500px;
+    margin: 10px;
+    padding: 30px;
+}
+
+#birthdayPresentation {
+    background-color: lightgreen;
+    height: 100px;
+    width: 400px;
+}
+
+#minutePresentation {
+        background-color: lightblue;
+    height: 100px;
+    width: 400px;
+}
