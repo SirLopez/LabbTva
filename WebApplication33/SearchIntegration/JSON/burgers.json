@@ -1,0 +1,128 @@
+﻿[
+  {
+    "name": "American burger",
+    "size": "250g",
+    "weekday": "monday",
+    "price": 18.50,
+    "category": "burgers",
+    "description": "For those who like big burgers, here is it.",
+    "image": "Images/Hamburger.png"
+  },
+  {
+    "name": "Russian burger",
+    "size": "200g",
+    "weekday": "tuesday",
+    "price": 16.50,
+    "category": "burgers",
+    "description": "A Moscow special for you, with some vodka flavor.",
+    "image": "Images/Hamburger.png"
+  },
+  {
+    "name": "Swedish burger",
+    "size": "150g",
+    "weekday": "wednesday",
+    "price": 17.50,
+    "category": "burgers",
+    "description": "You know you want it, as with everything else in Sweden, this is a also a taco inspired meal.",
+    "image": "Images/Hamburger.png"
+  },
+  {
+    "name": "Danish burger",
+    "size": "200g",
+    "weekday": "thursday",
+    "price": 15.50,
+    "category": "burgers",
+    "description": "With lots of cheese, what else.",
+    "image": "Images/Hamburger.png"
+  },
+  {
+    "name": "Chinese burger",
+    "size": "200g",
+    "weekday": "friday",
+    "price": 23.50,
+    "category": "burgers",
+    "description": "With meat you never tasted before, here we have some mixed variants and you can choose up to 3 different kinds of meat for your burger.",
+    "image": "Images/Hamburger.png"
+  },
+  {
+    "name": "Jamaican burger",
+    "size": "200g",
+    "weekday": "saturday",
+    "price": 19.50,
+    "category": "burgers",
+    "description": "We can´t say the special inredient, but we can give you a hint. It is a very popular plant which the jamaican people consumes.",
+    "image": "Images/Hamburger.png"
+  },
+  {
+    "name": "Indian burger",
+    "size": "200g",
+    "weekday": "sunday",
+    "price": 12.50,
+    "category": "burgers",
+    "description": "No meat in this, but hot as h*ll!",
+    "image": "Images/Hamburger.png"
+  },
+  {
+    "name": "Coke",
+    "size": "medium",
+    "weekday": "monday",
+    "price": 7.50,
+    "category": "drinks",
+    "description": "The worlds most popular drink.",
+    "image": "Images/Drink.png"
+  },
+  {
+    "name": "Water",
+    "size": "medium",
+    "weekday": "tuesday",
+    "price": 3.50,
+    "category": "drinks",
+    "description": "Need we inform you about water?",
+    "image": "Images/Drink.png"
+  },
+  {
+    "name": "Alcoholfree beer",
+    "size": "small",
+    "weekday": "wednesday",
+    "price": 6.50,
+    "category": "drinks",
+    "description": "For all beerlovers who doesn´t want to get drunk.",
+    "image": "Images/Drink.png"
+  },
+  {
+    "name": "Milk",
+    "size": "medium",
+    "weekday": "thursday",
+    "price": 4.50,
+    "category": "drinks",
+    "description": "Choose between cow and goat milk.",
+    "image": "Images/Drink.png"
+  },
+  {
+    "name": "7up",
+    "size": "medium",
+    "weekday": "friday",
+    "price": 7.50,
+    "category": "drinks",
+    "description": "Just like water but with a flavor and lots of sugar in it.",
+    "image": "Images/Drink.png"
+  },
+  {
+    "name": "Chocolate/ vanilla  latte",
+    "size": "large",
+    "weekday": "saturday",
+    "price": 9.50,
+    "category": "drinks",
+    "description": "Just good as they are, choose which you want and we serve you the other one.",
+    "image": "Images/Drink.png"
+  },
+  {
+    "name": "Coffe",
+    "size": "small",
+    "weekday": "monday",
+    "price": 2.50,
+    "category": "drinks",
+    "description": "Need an explanation for this? If so, please go disturb someone else.",
+    "image": "Images/Drink.png"
+  }
+]

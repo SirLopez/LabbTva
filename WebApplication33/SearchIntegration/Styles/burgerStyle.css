@@ -1,0 +1,39 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Audiowide);
+
+body {
+    background-color: #20b2aa;
+    color: snow;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #085550;
+    height: 12vh;
+    width: 90vw;
+}
+nav h1 {
+    text-align: center;
+}
+
+nav label {
+    font-family: 'Audiowide';
+    font-size: 1.1rem;
+}
+
+h1 {
+    font-family: 'Audiowide';
+    margin: auto;
+    padding-top: 10px;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+#navSearch {
+    text-align: right;
+    margin-top: -20px;
+    padding: 0 20px 0 0 ;
+}
+
+.checked {
+    padding: 0 0 0 20px;
+}
