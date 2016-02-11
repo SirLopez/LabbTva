@@ -2,27 +2,38 @@
 <html>
 <head>
     <title>Burgers Palace</title>
-    <script src="scripts/jquery-2.2.0.js"></script>
     <link href="Styles/burgerStyle.css" rel="stylesheet" />
+    <script src="scripts/jquery-2.1.4.js"></script>
+    <script src="scripts/menuBurgerPalace.js"></script>
     <meta charset="utf-8" />
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>Burgers Palace</h1>
-            <div class="checked">
-                <label for="burgers">Hamburgers </label>
-                <input id="burgers" type="checkbox" checked="checked" class="checkBoxes" />
-                <label for="drinks">Drinks </label>
-                <input id="drinks" type="checkbox" checked="checked" class="checkBoxes" />
-            </div>
-            <div id="navSearch">
-                <label for="search">Search: </label>
-                <input id="search" type="search" name="search" placeholder="Search here..." />
-            </div>
-        </nav>
+<header>
+    <nav>
 
+        <h1>Burgers Palace</h1>
 
-    </header>
+        <div id="navSearch">
+            <label for="search">Search: </label>
+            <input type="search" id="search" name="search" placeholder="Search here..."/>
+        </div>
+
+        <div class="checked">
+            <label for="burgers">Hamburgers </label>
+            <input type="checkbox" id="burgers" checked="checked" class="checkBoxes"/>
+            <label for="drinks">Drinks </label>
+            <input type="checkbox" id="drinks" checked="checked" class="checkBoxes"/>
+            <label for="pizzas">Pizzas </label>
+            <input type="checkbox" id="pizzas" checked="checked" class="checkBoxes"/>
+            <label for="subs">Subs </label>
+            <input type="checkbox" id="subs" checked="checked" class="checkBoxes"/>
+        </div>
+
+    </nav>
+
+</header>
+
+<div id="update"></div>
+
 </body>
 </html>

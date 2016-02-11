@@ -119,10 +119,136 @@
   {
     "name": "Coffe",
     "size": "small",
-    "weekday": "monday",
+    "weekday": "sunday",
     "price": 2.50,
     "category": "drinks",
     "description": "Need an explanation for this? If so, please go disturb someone else.",
     "image": "Images/Drink.png"
+  },
+  {
+    "name": "Hawaii",
+    "size": "normal",
+    "weekday": "monday",
+    "price": 6.50,
+    "category": "pizzas",
+    "description": "Tomatosauce, Cheese, Ham, Pineapple",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "Vegetariana",
+    "size": "normal",
+    "weekday": "tuesday",
+    "price": 6.50,
+    "category": "pizzas",
+    "description": "Tomatosauce, Cheese,  Mushrooms, Paprika, Olives, Artichoke, Onion.",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "Kebabpizza",
+    "size": "normal",
+    "weekday": "wednesday",
+    "price": 6.50,
+    "category": "pizzas",
+    "description": "Tomatosauce, Cheese, Kebabmeat, Onion, Pepperoncini, Kebabsauce.",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "Azteka",
+    "size": "large",
+    "weekday": "thursday",
+    "price": 9.50,
+    "category": "pizzas",
+    "description": "Tomatosauce, Cheese, Ham, Mushrooms, Onions, Tacomix, Jalapeños, Tacosauce, Garlicsauce.",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "Ciao Ciao",
+    "size": "normal",
+    "weekday": "friday",
+    "price": 6.50,
+    "category": "pizzas",
+    "description": "Tomatosauce, Cheese, Beef fillet, Mushrooms, Garlic (fresh), Peppers, Onions, Bearnaisesauce.",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "Pronto Special",
+    "size": "normal",
+    "weekday": "saturday",
+    "price": 6.50,
+    "category": "pizzas",
+    "description": "Tomatosauce, Cheese, Ham, Kebabmeat, Bacon, Garlic (fresh ), Garlicsauce.",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "El Greko",
+    "size": "100cm",
+    "weekday": "sunday",
+    "price": 6.50,
+    "category": "pizzas",
+    "description": "Tomatosauce, Cheese, Sauce, Feta, Olives, Pepper.",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "BimBim sub",
+    "size": "medium",
+    "weekday": "monday",
+    "price": 7.50,
+    "category": "subs",
+    "description": "A children version, lots of easy-to-eat content!",
+    "image": "Images/Subs.PNG"
+  },
+  {
+    "name": "Bella´s sub",
+    "size": "medium",
+    "weekday": "tuesday",
+    "price": 7.50,
+    "category": "subs",
+    "description": "For the ladies.",
+    "image": "Images/Subs.PNG"
+  },
+  {
+    "name": "King´s sub",
+    "size": "mega",
+    "weekday": "wednesday",
+    "price": 9.50,
+    "category": "subs",
+    "description": "If you want everything in your sub, this is the one!",
+    "image": "Images/Subs.PNG"
+  },
+  {
+    "name": "Veggie sub",
+    "size": "small",
+    "weekday": "thursday",
+    "price": 6.50,
+    "category": "subs",
+    "description": "Be aware, here you will find no meat, move along!",
+    "image": "Images/Subs.PNG"
+  },
+  {
+    "name": "Volcano sub",
+    "size": "mega",
+    "weekday": "friday",
+    "price": 9.50,
+    "category": "subs",
+    "description": "Spicy and awesome",
+    "image": "Images/Subs.PNG"
+  },
+  {
+    "name": "Bacon sub",
+    "size": "medium",
+    "weekday": "saturday",
+    "price": 7.50,
+    "category": "subs",
+    "description": "There is bacon in it, no need to say anymore!",
+    "image": "Images/Subs.PNG"
+  },
+  {
+    "name": "Chicken sub",
+    "size": "medium",
+    "weekday": "sunday",
+    "price": 7.50,
+    "category": "subs",
+    "description": "For the proteinlovers out there",
+    "image": "Images/Subs.PNG"
   }
 ]
